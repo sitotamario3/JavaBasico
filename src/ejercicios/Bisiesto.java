@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 
 import java.util.Scanner;
 
@@ -9,14 +9,16 @@ public class Bisiesto {
 		Scanner scan = new Scanner(System.in);
 		
 		
-		int num1, resultado;
+		int num1;
 		
 		System.out.println("Inserta un año");
 		num1 = scan.nextInt();
 		
-		if ( num1 % 4 == 0 && num1 % 100 != 0 && num1) {
+		if ( (num1 % 4 == 0 && num1 % 100 != 0) || num1 == 400 ) {
 			System.out.println("Es bisiesto");
-		} 
+		} else {
+			System.out.println("No es bisiesto");
+		}
 		
 		
 		

@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class CocienteYResto {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int num1, num2, div;
+		int num1, num2;
 		
 		System.out.println("Dame dos numeros");
 		num1 = scan.nextInt();

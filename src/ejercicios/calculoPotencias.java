@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class calculoPotencias {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		
-		double num1, num2, resultado, x;
+		double num1, num2, resultado;
 		
 		System.out.println("Inserta una cifra para calcular la potencia: ");
 		num1 = scan.nextDouble();
